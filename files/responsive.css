@@ -1,0 +1,116 @@
+/* Karma is here */
+/* Small Devices Responsive */
+@media screen and (max-width: 576px) {
+    /* Common Styles */
+    nav,
+    .main-nav ul,
+    .banner-section,
+    .gamer,
+    .online-game > .card-container,
+    .paly-game,
+    .careers
+    {
+        flex-direction: column;
+    }
+    .banner-section,
+    .play-instantly
+    {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    .banner-img,
+    .gamer-img,
+    .careers-content,
+    .careers-image,
+    .play-instantly-content,
+    .play-game-content,
+    .gamer-content
+    {
+        width: 90%;
+    }
+
+    .paly-game-img img,
+    .play-instantly-img img,
+    .banner-section,
+    .banner{
+        width: 100%;
+    }
+
+    .play-instantly-content,
+    .play-game-content,
+    .banner-section{
+        text-align: center;
+    }
+
+    .play-game-content{
+        margin: 0;
+        padding: 0;
+    }
+    /* Nav & banner Section Styles */
+    .main-nav ul{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .main-nav ul:first-child{
+        margin-top: 1rem;
+    }
+    .banner .btn-primary{
+        margin-bottom: 1.125rem;
+    }
+
+    .banner-title-goat{
+        font-size: 4rem;
+    }
+/* Gamer Section Styles */
+.gamer-content{
+    text-align: center;
+}
+.gamer-description{
+    width: 100%;
+    margin: 1rem 0rem;
+}
+/* card section styles */
+.card{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-bottom: 3.5rem;
+}
+/* .paly-game Styles */
+.paly-game-img img,
+.play-instantly-img img,
+{
+    width: 100%;
+    position: relative;
+}
+
+.play-instantly-img-one
+{
+    position: absolute;
+    top: 22rem;
+    right: 10rem;
+}
+.paly-game-img-one
+{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+.paly-game-img-one{
+    top: 350rem;
+    left: 20rem;
+    width: 10rem;
+}
+.play-instantly-img-one{
+    top: 308rem;
+    left: 20rem;
+    width: 10rem;
+}
+
+.profile-h2-img{
+    flex-wrap: wrap;
+}
+}
+
+
