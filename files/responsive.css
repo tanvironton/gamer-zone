@@ -19,6 +19,15 @@
         gap: 4rem;
     }
 
+    
+
+    .paly-game-img img,
+    .play-instantly-img img,
+    .banner-section,
+    .banner{
+        width: 100%;
+    }
+
     .banner-img,
     .gamer-img,
     .careers-content,
@@ -30,12 +39,7 @@
         width: 90%;
     }
 
-    .paly-game-img img,
-    .play-instantly-img img,
-    .banner-section,
-    .banner{
-        width: 100%;
-    }
+
 
     .play-instantly-content,
     .play-game-content,
